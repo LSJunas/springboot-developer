@@ -41,7 +41,7 @@ class TestControllerTest {
         memberRepository.deleteAll();
     }
 
-    @DisplayName("getAllMembers: 아티클 조회에 성공한다.")
+    @DisplayName("getAllMembers: 아티클 조회에 성공한다.커밋 테스트")
     @Test
     public void getAllMembers() throws Exception {
         // given
